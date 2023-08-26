@@ -14,9 +14,9 @@ const ImgCard = (props) => {
       <Card style={{ width: "13rem" }}>
         <Card.Img className="wh" variant="top" src={props.imgsrc} />
         <Card.Body>
-          <Card.Title>{props.title}</Card.Title>
+          <Card.Title>{props.title.slice(0,10)}</Card.Title>
           <Card.Text>
-            {props.desc}
+            {props.desc.slice(0,50)}
           </Card.Text>
           <Button onClick={btnClicked} variant="primary">Go somewhere</Button>
           {Count}
