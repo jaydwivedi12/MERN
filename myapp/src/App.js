@@ -9,10 +9,6 @@ import './App.css';
 // import MainSlider from './components/MainSlider';
 // import NavBar from './components/NavBar';
 
-
-
-
-
 function App() {
   return (
     <div>
@@ -24,7 +20,9 @@ function App() {
     {/* <AComponent/> */}
     {/* <Temperature/> */}
     {/* <FormData/>   */}
-    {/* <Distance/> */}
+    {/* <Distance/>
+     */}
+     
     </div>
   );
 }

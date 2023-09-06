@@ -31,7 +31,7 @@ const FormData = () => {
                 </div>
                 <div>
                     <label htmlFor="">Mobile</label>
-                    <input type="text" name='Mobile' onChange={HandleChange} value={Data.Mobile} />
+                    <input type="tel" name='Mobile' onChange={HandleChange} value={Data.Mobile} />
                 </div>
                 <button>Submit</button>
             </form>
