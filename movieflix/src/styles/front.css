@@ -1,8 +1,8 @@
-.top{
+.top {
     background-color: black;
 }
-.front-section
-{
+
+.front-section {
     height: 80vh;
     width: 100vw;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://assets.nflxext.com/ffe/siteui/vlv3/855ed6e2-d9f1-4afd-90da-96023ec747c3/85eb5b91-25ed-4965-ace9-ba8e4a0ead8d/IN-en-20230828-popsignuptwoweeks-perspective_alpha_website_small.jpg");
@@ -13,72 +13,82 @@
     color: aliceblue;
     padding-bottom: 0%;
 }
-.nav{
+
+.nav {
     height: 20%;
     width: 60%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-select{
+
+.slt {
     padding: 0.5em;
 
 }
-.options{
+
+.options {
     display: flex;
     gap: 10px;
     color: black;
-    
+
 }
-.logo{
+
+.logo {
     height: 50%;
 }
-.form{
+
+.form {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 80%;
 }
-.heading{
+
+.heading {
     font-weight: bold;
     font-size: 3rem;
     width: 100%;
     text-align: center;
 }
-p{
+
+.par {
     font-size: 1.5rem;
     width: 100%;
     text-align: center;
 
 }
-.started
-{
-height:2.5rem;
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 10px;
-margin-top: 20px;
-flex-direction: row;
-/* flex-wrap: wrap; */
+
+.started {
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: row;
+
+    flex-wrap: wrap;
 }
 
-input{
+.ip {
     padding: 5% 60%;
     color: rgb(255, 255, 255);
     background: transparent;
     background-color: rgba(0, 0, 0, 0.243);
     border: 1px solid grey;
 }
-button{
-font-size: larger;
-padding: 3% 20%;
-white-space: nowrap;
-display: flex;
-text-align: center;
-color: rgb(255, 255, 255);
-font-weight: bold;
-background-color: red;
-border: none;
+
+.btn{
+    font-size: larger;
+    padding: 3% 20%;
+    white-space: nowrap;
+    display: flex;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: red;
+    border: none;
 }
+

@@ -1,0 +1,8 @@
+
+.smooth {
+    transition: max-height 0.3s ease-in-out; /* Adjust the duration and easing as needed */
+  }
+  
+.rotate{
+  transform: rotate(45deg);
+}
